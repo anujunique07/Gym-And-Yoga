@@ -2,13 +2,13 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
   <servlet>
     <description></description>
-    <display-name>Admin</display-name>
-    <servlet-name>Admin</servlet-name>
-    <servlet-class>com.backend.Admin</servlet-class>
+    <display-name>TrainerUpdateServlet</display-name>
+    <servlet-name>TrainerUpdateServlet</servlet-name>
+    <servlet-class>com.backend.TrainerUpdateServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Admin</servlet-name>
-    <url-pattern>/Admin</url-pattern>
+    <servlet-name>TrainerUpdateServlet</servlet-name>
+    <url-pattern>/TrainerUpdateServlet</url-pattern>
   </servlet-mapping>
   <display-name>Admin</display-name>
   <welcome-file-list>
@@ -19,4 +19,34 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TrainerDetailsServlet</display-name>
+    <servlet-name>TrainerDetailsServlet</servlet-name>
+    <servlet-class>com.backend.TrainerDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrainerDetailsServlet</servlet-name>
+    <url-pattern>/TrainerDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>deleteDetailsServlet</display-name>
+    <servlet-name>deleteDetailsServlet</servlet-name>
+    <servlet-class>com.backend.deleteDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteDetailsServlet</servlet-name>
+    <url-pattern>/deleteTrainer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>editDetailsServlet</display-name>
+    <servlet-name>editDetailsServlet</servlet-name>
+    <servlet-class>com.backend.editDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editDetailsServlet</servlet-name>
+    <url-pattern>/editTrainer</url-pattern>
+  </servlet-mapping>
 </web-app>
