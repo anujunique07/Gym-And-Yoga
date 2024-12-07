@@ -14,7 +14,7 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
@@ -48,5 +48,45 @@
   <servlet-mapping>
     <servlet-name>editDetailsServlet</servlet-name>
     <url-pattern>/editTrainer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminRegister</display-name>
+    <servlet-name>AdminRegister</servlet-name>
+    <servlet-class>com.backend.AdminRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminRegister</servlet-name>
+    <url-pattern>/AdminRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginAdmin</display-name>
+    <servlet-name>LoginAdmin</servlet-name>
+    <servlet-class>com.backend.LoginAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginAdmin</servlet-name>
+    <url-pattern>/LoginAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogoutAdmin</display-name>
+    <servlet-name>LogoutAdmin</servlet-name>
+    <servlet-class>com.backend.LogoutAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutAdmin</servlet-name>
+    <url-pattern>/LogoutAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteCustomerServlet</display-name>
+    <servlet-name>DeleteCustomerServlet</servlet-name>
+    <servlet-class>com.backend.DeleteCustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCustomerServlet</servlet-name>
+    <url-pattern>/DeleteCustomerServlet</url-pattern>
   </servlet-mapping>
 </web-app>

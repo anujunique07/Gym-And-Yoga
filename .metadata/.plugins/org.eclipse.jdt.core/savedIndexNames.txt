@@ -3,7 +3,6 @@ INDEX VERSION 1.134+D:\Gym & Yoga\.metadata\.plugins\org.eclipse.jdt.core
 1164164160.index
 1865797976.index
 1766161963.index
-3285683456.index
 2676722386.index
 3139856533.index
 595438363.index

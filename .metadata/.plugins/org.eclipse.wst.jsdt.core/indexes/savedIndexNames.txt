@@ -4,6 +4,5 @@ INDEX VERSION 1.4+D:\Gym & Yoga\.metadata\.plugins\org.eclipse.wst.jsdt.core\ind
 1167281023.index
 2256369373.index
 3618277087.index
-945377586.index
 1766161963.index
 1119640695.index
